@@ -1,0 +1,13 @@
+train: D:\Users\hua\PycharmProjects\ultralytics-main\datasets\train/images
+val: D:\Users\hua\PycharmProjects\ultralytics-main\datasets\valid/images
+test: D:\Users\hua\PycharmProjects\ultralytics-main\datasets\test/images
+
+nc: 1
+names: ['Car']
+
+roboflow:
+  workspace: imc
+  project: car-dwybi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/imc/car-dwybi/dataset/1
